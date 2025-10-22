@@ -9,17 +9,8 @@
 
 	// instala características de Java y Docker
 	"features": {
-		"ghcr.io/devcontainers/features/java:1": {
-			"version": "latest",
-			"jdkDistro": "ms",
-			"installGradle": false,
-			"installMaven": true,
-			"mavenVersion": "latest"
-		},
-		"ghcr.io/devcontainers-extra/features/springboot-sdkman:2": {
-			"version": "latest",
-			"jdkVersion": "none"
-		},
+		"ghcr.io/devcontainers/features/java:1": {},
+		"ghcr.io/devcontainers-extra/features/springboot-sdkman:2": {},
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
 
